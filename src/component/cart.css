@@ -1,0 +1,151 @@
+.emoty-cart {
+    padding: 4rem 0rem;
+}
+
+
+.emptycartbg {
+    width: 35%;
+    margin: auto;
+    opacity: 0.8;
+    padding-top: 30px;
+    /* margin-right: auto; 
+    margin-left: auto;  */
+}
+
+.c1 {
+    margin: auto;
+    padding: 30px 0px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.c2 {
+
+    margin-bottom: 0.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    color: #ffffff;
+    /* margin-top: 3rem;  */
+    font-weight: 700;
+    background-color: #c8815f;
+    text-decoration: none;
+    transition: all .35s ease;
+
+}
+
+.button:hover {
+
+    background-color: black;
+    transform: translateY(-5px);
+}
+
+/* ----------------for order--------- */
+
+.order-container {
+    margin: auto;
+    width: 50%;
+}
+
+.heading {
+    display: flex;
+    border-bottom-width: 1px;
+    border-color: #D1D5DB;
+    padding-bottom: 1rem;
+
+}
+
+.heading h1 {
+
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+
+}
+
+.item {
+    display: flex;
+
+}
+
+.item img {
+    width: 6rem;
+
+}
+
+.order-name {
+    margin-left: 1rem;
+    flex: 110%;
+
+}
+
+.quantity {
+    flex: 110%;
+
+}
+
+.price {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.total {
+    padding: 1rem 0rem;
+    text-align: right;
+
+}
+
+.total-am {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+
+
+}
+
+.amount {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #f7570c;
+}
+
+.contain {
+    margin-top: 3rem;
+}
+
+.placeholder {
+    border: none;
+    background-color: #e7d8d1;
+    padding: 0.5rem;
+    /* margin-bottom: 1rem; */
+    margin: 10px 0px 0px 0px;
+    width: 50%;
+    list-style: none;
+}
+
+.button1 {
+    padding: 0.5rem 1.5rem;
+    color: #ffffff;
+    background-color: #f7570c;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 9999px;
+    /* margin-top: 1.5rem; */
+    text-decoration: none;
+}
+.hey{
+    margin-top: 20px;
+}
+ 

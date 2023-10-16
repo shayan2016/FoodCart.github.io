@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* list-style: none; */
+    scroll-behavior: smooth;
+}
+
+/* -- ------home------ -- */
+
+.home {
+
+    background: url(./images/bg.jpg);
+    padding: 100px 14%;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    /* background-position: center top; */
+    /* position: absolute; */
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr); */
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: .6rem;
+    margin-bottom: 1.4rem;
+}
+
+.home-text p {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 25px;
+    background: #c8815f;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all .35s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    background: #111111;
+}
+
+/* -----------menu section------------- */
+.menu {
+    display: block;
+    margin: auto;
+    padding: 0px 2rem;
+
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    /* line-height: 1.75rem;  */
+    font-weight: 700;
+    margin: 30px 0px 50px 0px;
+    background-color: #dbd9d9;
+    padding: 15px;
+
+}
+
+.img {
+    display: block;
+    margin: auto;
+    /* margin-bottom: 0px;  */
+    height: 10rem;
+}
+
+.wrapper {
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+
+    column-gap: 40px;
+    row-gap: 20px;
+
+}
+
+
+.name1 {
+    /* margin-bottom: 1rem;
+    margin-top: 5rem; */
+    margin: 18px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.name2 {
+    background-color: #dbd9d9;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.name3 {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.name4 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: black;
+}
+
+.add-cart {
+    color: #c8815f;
+    border: 2px solid#c8815f;
+    display: flex;
+
+    padding: 0.25rem 1.5rem;
+    font-weight: 700;
+    align-items: center;
+    border-radius: 9999px;
+}
+
+.add-cart {
+    color: #c8815f;
+}
+
+.add-cart:hover {
+    background-color: #c8815f;
+    color: #ffffff;
+}
+
+.name5 {
+    text-align: center;
+}

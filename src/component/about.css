@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* -------About 0 start here-------- */
+
+.heading-site0{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    top: 26%;
+    left: 42%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.about-bg0{
+    height: 55vh;
+    width: 100%;
+    background-image: url(./images/bgAbout.jpg);
+    
+}
+/* -------About 1 start here-------- */
+
+.about-bg1{
+    height: 13vh;
+    width: 100%;
+    background-color: rgb(171, 172, 172);
+}
+
+.content-site1{
+    
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(3, 7, 7);
+    text-align: center;
+    padding-top: 13px;
+    font-size: 17px;
+}
+/* -------About 2 start here-------- */
+.about-bg2{
+    height: 45vh;
+    width: 100%;
+    background-color: rgba(106, 153, 85, 0.918);
+}
+.heading-site2 h2{
+    font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+    padding: 4.5rem 0 14px 6.4rem;
+    color: rgb(0, 0, 0);
+}
+.content-site2{
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+    list-style: none;
+    display: flex;  
+}
+.content-site2 li{
+    padding: 40px 15rem 0px 6rem;
+    margin: 0 0 0 rem 6.4rem;
+    font-size: 22px;
+}
+ span{
+    color:rgb(106, 153, 85, 0.918); ; 
+    /* to change color of _ b/t order and icon of content-site2 */
+ }
+/* -------About 3 start here-------- */
+.about-bg3{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(171, 172, 172);
+}
+.heading-site3 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 65px 0 14px 6.4rem;
+    color: rgb(17, 17, 17);
+  font-size: 30px;
+
+}
+.content-site3{
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px 100px;
+    font-size: large;
+    text-align: left;
+    font-size: 20px;
+}
+.para3{
+    padding-bottom: 23px;
+}
+/* -------About 4 start here (footer)-------- */
+footer{
+    position: relative;
+    width: 100%;
+    height: 138px;
+    background-color: rgb(78, 78, 76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    padding: 15px 0px ;
+    color: white;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .2s;
+}
+.end{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    bottom: 3px;
+    font-size: 14px;
+}

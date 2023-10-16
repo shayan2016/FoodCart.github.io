@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navigation bar css */
+ 
+.top-right a {
+    float: right;
+    font-size: larger;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+     margin: 0px 0px 0px 749px;
+     padding: 3px 22px;
+    
+}
+.top-right a:hover {
+    color: black;
+    background-color: rgb(202, 209, 209);
+    border-radius: 20px;    
+ 
+    
+}
+  
+#navbar {
+    /* background-image: url(burger.png); */
+
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* justify-content: center; */
+    top: 0px;
+}
+ 
+#logo {
+    margin: -17px -23px;
+}
+
+#logo img {
+    height: 37px;
+    margin: 20px 37px;
+}
+
+#navbar ul {
+    display: flex;
+    
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    float: left;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: rgb(202, 209, 209);
+    border-radius: 20px;
+}
+
+/* home section css */
+
+#navbar::before {
+    content: "";
+    background-color: rgba(10, 58, 6, 0.877);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+
+}
+
+
+ 
